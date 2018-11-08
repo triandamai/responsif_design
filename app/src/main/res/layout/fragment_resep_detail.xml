@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/ks2"
+    tools:context=".ResepDetailFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textJudul"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fontFamily="monospace"
+        android:textColor="@color/Brown"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Nama Paket" />
+
+    <TextView
+        android:id="@+id/textDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Detail Makanan"/>
+
+    <TextView
+        android:id="@+id/textHarga"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/Magenta"
+        android:text="Detail Makanan"/>
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/imgfood"
+        android:layout_width="195dp"
+        android:layout_height="200dp" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#d12660</color>
+    <color name="toska">#8cff00</color>
+    <color name="Red">#ff0000</color>
+    <color name="Magenta">#9f0000</color>
+    <color name="Brown">#693838</color>
+    <color name="Blue">#003cff</color>
+    <color name="White">#ffffff</color>
+</resources>
